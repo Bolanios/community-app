@@ -11929,9 +11929,7 @@
             scope.search = function () {
                 location.path('/search/' + scope.search.query);
             };
-            scope.text = '<span>Mifos X is designed by the <a href="http://www.openmf.org/">Mifos Initiative</a>.' +
-            '<a href="http://mifos.org/resources/community/"> A global community </a> thats aims to speed the elimination of poverty by enabling Organizations to more effectively and efficiently deliver responsible financial services to the world’s poor and unbanked </span><br/>' +
-            '<span>Sounds interesting?<a href="http://mifos.org/take-action/volunteer/"> Get involved!</a></span>';
+            scope.text = '<span></span>';
 
             scope.logout = function () {
                 scope.currentSession = sessionManager.clear();
